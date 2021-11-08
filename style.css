@@ -23,11 +23,15 @@
   }
   .mainbox:after{
     position: absolute;
-    background: url('left-arrow.png') no-repeat;
-    background-size: 32px;
-    right: -30px;
-    top: 50%;
-    transform: translateY(-50%);
+    content: '';
+  width: 32px;
+  height: 32px;
+  background: url('left-arrow.png') no-repeat;
+  background-size: 32px;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+   
   }
   .box{
     width: 100%;
