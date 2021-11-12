@@ -7,6 +7,10 @@
   h1 b{
       margin-left: 550px;
   }
+  .logo{
+    height: 100px;
+    padding-left: 50rem;
+  }
   
   body{
     font-family: "Open Sans";
